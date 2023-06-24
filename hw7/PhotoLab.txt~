@@ -1,0 +1,8 @@
+HW 7 by Jaccob Mau
+
+This program makes a image object and stores the necessary data inside the image object when producing the new image.
+The new image is processed through the PhotoLab object with its DIP functions.
+The new image is then uploaded.
+When the DIP function is done, the PhotoLab object then clears the memory and deletes the image.
+
+Known errors occuring in the crop dip is not uploading to the server and there is one persistant instant creating multiple errors.

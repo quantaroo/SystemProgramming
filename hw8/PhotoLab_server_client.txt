@@ -1,0 +1,11 @@
+Assignment8 by Jaccob Mau
+
+The PhotoLab program consists of two parts, a client (PhotoLab_client.c) and a server (PhotoLab_server.c), that communicate over a network. This program is designed to handle image processing requests.
+
+The client-server interaction allows for remote image processing. The client sends the image and the processing request to the server, which performs the desired operations and returns the processed image to the client. The server can only handle one client at a time as of now, but the design could be adapted to support multiple clients simultaneously using techniques such as multithreading or multiprocessing.
+
+Multithreading: This technique involves creating a new thread for each client connection. Each thread operates independently, allowing the server to handle multiple clients simultaneously. Implementing this in the PhotoLab server would require creating new threads upon accepting client connections and relocating the server logic for processing requests to a separate function. Thread synchronization would also be needed to prevent concurrency-related issues.
+
+Multiprocessing: This method involves creating a new process for each client connection. As with multithreading, this allows for concurrent handling of clients. However, it provides greater isolation as each client is managed by a separate process. To implement multiprocessing in the PhotoLab server, a new process would need to be forked upon accepting a client connection. Similar to multithreading, server logic would need to be moved to a separate function. Additionally, inter-process communication mechanisms may need to be implemented for data sharing between processes.
+
+In summary, multithreading is lighter on resources and allows for easier communication between threads, but can be prone to issues such as data races and deadlocks. Multiprocessing provides better isolation and fault tolerance, but is more resource-intensive and complex in terms of inter-process communication.

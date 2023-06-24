@@ -1,0 +1,124 @@
+Script started on 2023-05-01 11:03:05-07:00
+]0;jmau@WWWSTU-P01:~/hw7[jmau@WWWSTU-P01 hw7]$ ./PhotoLab
+wilson.ppm was read successfully!
+aging.ppm was saved successfully. 
+aging.jpg was stored for viewing. 
+Aging tested!
+
+wilson.ppm was read successfully!
+bw.ppm was saved successfully. 
+bw.jpg was stored for viewing. 
+Black and White tested!
+
+wilson.ppm was read successfully!
+negative.ppm was saved successfully. 
+negative.jpg was stored for viewing. 
+Negative tested!
+
+wilson.ppm was read successfully!
+vflip.ppm was saved successfully. 
+vflip.jpg was stored for viewing. 
+VFlip tested!
+
+wilson.ppm was read successfully!
+hmirror.ppm was saved successfully. 
+hmirror.jpg was stored for viewing. 
+HMirror tested!
+
+wilson.ppm was read successfully!
+sharpen.ppm was saved successfully. 
+sharpen.jpg was stored for viewing. 
+Sharpen tested!
+
+wilson.ppm was read successfully!
+xRB.ppm was saved successfully. 
+xRB.jpg was stored for viewing. 
+ExRB tested!
+
+wilson.ppm was read successfully!
+Crop.ppm was saved successfully. 
+Crop.jpg was stored for viewing. 
+Crop tested!
+
+AutoTest finished.
+]0;jmau@WWWSTU-P01:~/hw7[jmau@WWWSTU-P01 hw7]$ ./PhotoLab[6Pexitcd hw7[2Pexit./PhotoLab[K./PhotoLab[6Pexitcd hw7 7[2P..hw 7[1P7[2Pexit./PhotoLab[Kvalgrind --leak-check=full PhotoLab[C.PhotoLab/PhotoLab
+==963176== Memcheck, a memory error detector
+==963176== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==963176== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==963176== Command: ./PhotoLab
+==963176== 
+wilson.ppm was read successfully!
+aging.ppm was saved successfully. 
+aging.jpg was stored for viewing. 
+Aging tested!
+
+wilson.ppm was read successfully!
+bw.ppm was saved successfully. 
+bw.jpg was stored for viewing. 
+Black and White tested!
+
+wilson.ppm was read successfully!
+negative.ppm was saved successfully. 
+negative.jpg was stored for viewing. 
+Negative tested!
+
+wilson.ppm was read successfully!
+vflip.ppm was saved successfully. 
+vflip.jpg was stored for viewing. 
+VFlip tested!
+
+wilson.ppm was read successfully!
+hmirror.ppm was saved successfully. 
+hmirror.jpg was stored for viewing. 
+HMirror tested!
+
+wilson.ppm was read successfully!
+==963176== Syscall param write(buf) points to uninitialised byte(s)
+==963176==    at 0x4F67BC8: write (in /usr/lib64/libc-2.28.so)
+==963176==    by 0x4ED9DAC: _IO_file_write@@GLIBC_2.2.5 (in /usr/lib64/libc-2.28.so)
+==963176==    by 0x4ED911E: new_do_write (in /usr/lib64/libc-2.28.so)
+==963176==    by 0x4EDAE68: _IO_do_write@@GLIBC_2.2.5 (in /usr/lib64/libc-2.28.so)
+==963176==    by 0x4EDB2BE: _IO_file_overflow@@GLIBC_2.2.5 (in /usr/lib64/libc-2.28.so)
+==963176==    by 0x40152A: SaveImage (in /home/chapman.edu/jmau/hw7/PhotoLab)
+==963176==    by 0x401972: AutoTest (in /home/chapman.edu/jmau/hw7/PhotoLab)
+==963176==    by 0x402D7B: main (in /home/chapman.edu/jmau/hw7/PhotoLab)
+==963176==  Address 0x548400f is 15 bytes inside a block of size 4,096 alloc'd
+==963176==    at 0x4C37135: malloc (vg_replace_malloc.c:381)
+==963176==    by 0x4ECE0FF: _IO_file_doallocate (in /usr/lib64/libc-2.28.so)
+==963176==    by 0x4EDC06F: _IO_doallocbuf (in /usr/lib64/libc-2.28.so)
+==963176==    by 0x4EDB2D7: _IO_file_overflow@@GLIBC_2.2.5 (in /usr/lib64/libc-2.28.so)
+==963176==    by 0x4EDA47E: _IO_file_xsputn@@GLIBC_2.2.5 (in /usr/lib64/libc-2.28.so)
+==963176==    by 0x4ECF56B: fwrite (in /usr/lib64/libc-2.28.so)
+==963176==    by 0x40148E: SaveImage (in /home/chapman.edu/jmau/hw7/PhotoLab)
+==963176==    by 0x401972: AutoTest (in /home/chapman.edu/jmau/hw7/PhotoLab)
+==963176==    by 0x402D7B: main (in /home/chapman.edu/jmau/hw7/PhotoLab)
+==963176== 
+sharpen.ppm was saved successfully. 
+sharpen.jpg was stored for viewing. 
+Sharpen tested!
+
+wilson.ppm was read successfully!
+xRB.ppm was saved successfully. 
+xRB.jpg was stored for viewing. 
+ExRB tested!
+
+wilson.ppm was read successfully!
+Crop.ppm was saved successfully. 
+Crop.jpg was stored for viewing. 
+Crop tested!
+
+AutoTest finished.
+==963176== 
+==963176== HEAP SUMMARY:
+==963176==     in use at exit: 0 bytes in 0 blocks
+==963176==   total heap usage: 65 allocs, 65 frees, 3,446,624 bytes allocated
+==963176== 
+==963176== All heap blocks were freed -- no leaks are possible
+==963176== 
+==963176== Use --track-origins=yes to see where uninitialised values come from
+==963176== For lists of detected and suppressed errors, rerun with: -s
+==963176== ERROR SUMMARY: 103 errors from 1 contexts (suppressed: 0 from 0)
+]0;jmau@WWWSTU-P01:~/hw7[jmau@WWWSTU-P01 hw7]$ exit
+exit
+
+Script done on 2023-05-01 11:03:35-07:00

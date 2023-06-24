@@ -1,0 +1,6 @@
+Rational Program by Jaccob Mau
+
+This program will input the inital fraction and then give the user options.
+The options are subtraction, addition, multiplication, division and reciprcal functions.
+The program has division error recognition and displays the resulting fraction.
+The program uses a GCD function to obtain the simplification of the fraction.

@@ -1,0 +1,8 @@
+Blackjack Game
+Jaccob Mau
+
+This program will play the game of black jack like in the casinos.
+You will first try to get as close to 21 without going over 21 in points.
+You will ask the dealer to give you a random card from the deck until you are satified.
+Then the dealer will try to beat your score. If your score beaten or equal to the dealer, you lose.
+Otherwise you win. 

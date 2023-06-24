@@ -1,0 +1,18 @@
+Photo Lab HW6
+Prepared by Prof. Emad Arasteh
+Modified by Jaccob Mau
+
+In this program we load an image, use various functions to change the image, and then save/upload image.
+The list of functions that change the image are:
+
+    - Age the image
+    - Change the color image to black and white
+    - Make a negative of the image
+    - Flip the image vertially
+    - Mirror the image horizontally
+    - Sharpen the image
+    - Exchange the red and blue color channels
+    - Add noise to the image
+    - Add a border to the image
+
+After these images are uploaded they are stored in http://students.chapman.edu/ ~jmau/index.html. 

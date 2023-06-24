@@ -1,0 +1,27 @@
+Script started on 2023-03-02 23:49:48-08:00
+]0;jmau@WWWSTU-P01:~/hw3[jmau@WWWSTU-P01 hw3]$ ./creditcard[6Pscript./creditcard
+Enter the credit limit        : 6000.00
+Enter the balance on the card : 2500.00
+Enter the APR                 : 12.99
+Enter the monthly payment     : 250.00
+
+
+Month        Balance        Interest        Payment        New Balance
+ 1           2500.00           27.06         250.00            2277.06
+ 2           2277.06           24.65         250.00            2051.71
+ 3           2051.71           22.21         250.00            1823.92
+ 4           1823.92           19.74         250.00            1593.67
+ 5           1593.67           17.25         250.00            1360.92
+ 6           1360.92           14.73         250.00            1125.65
+ 7           1125.65           12.19         250.00            887.83
+ 8           887.83           9.61         250.00            647.44
+ 9           647.44           7.01         250.00            404.45
+ 10           404.45           4.38         250.00            158.83
+ 11           158.83           1.72         160.55            0.00
+
+It will take $2660.55 over 11 month(s) to pay off this debt.
+
+]0;jmau@WWWSTU-P01:~/hw3[jmau@WWWSTU-P01 hw3]$ exit
+exit
+
+Script done on 2023-03-02 23:50:38-08:00

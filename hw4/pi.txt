@@ -1,0 +1,20 @@
+Pi Program
+
+You will first be prompted to give a radius and the number of points you will want to generate.
+The larger the number of points the more accurate the results of finding pi.
+The program will calculate the distance of each point to see if it is either inside the circle or not.
+Each point will tell if you are with in the circle or not.
+At the end, the summary will tell you how many points were in and out.
+Also, it will tell the pi value you generated with this program.
+
+Bonus:
+a circle is symetrical when cut into fourths and will give you the same probability of hitting the circle.
+The equation will be slightly different given this knowledge.
+The area of the quadrant square is R^2.
+The area of the circle inside the square is (pi*R^2)/4.
+The probability of a random point landing inside the quadrant is the ratio of the area of the quadrant to
+the area of the entire square.
+The equation will then be ((pi*R^2)/4)/R^2 = pi/4.
+A formula is simple d=sqrt(x^2+y^2) since the starting point is (0,0).
+Then I would check to see if d>r or d<r to check if it is within or outside the circle.
+Then follow the same processes we did in the original main() function.

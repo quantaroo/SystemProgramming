@@ -1,0 +1,6 @@
+Initials.c: Assignment1
+Author: Jaccob C. Mau
+
+This program outputs my initials which are J C M.
+I used the printf() to output the the capital letters in the shape of the letter.
+All of this is inside the main() class including stdio.h header file. 

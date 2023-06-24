@@ -1,0 +1,16 @@
+Script started on 2023-02-23 22:04:59-08:00
+]0;jmau@WWWSTU-P01:~/hw2[jmau@WWWSTU-P01 hw2]$ exit[Kexit./pipecd hw2gcc pipe.c -ansi -Wall -o pipe
+]0;jmau@WWWSTU-P01:~/hw2[jmau@WWWSTU-P01 hw2]$ ./pipe
+Please enter the inner radius of the pipe (r): 5.2
+Please enter the outer radius of the pipe (R): 6.1 2
+Please enter the length of the pipe (L): 6
+The thickness of the pipe is: 1.000000
+The volume of the pipe is: 214.884756
+Surface area of the inner pipe: 196.035216
+Surface area of the outer pipe: 233.734296
+Surface are of the rings: 71.628252
+The total surface area of the pipe: 501.397764
+]0;jmau@WWWSTU-P01:~/hw2[jmau@WWWSTU-P01 hw2]$ exit
+exit
+
+Script done on 2023-02-23 22:05:34-08:00

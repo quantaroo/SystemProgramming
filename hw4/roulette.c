@@ -1,0 +1,95 @@
+/*
+   CENG 231 Assignment 4 Part 1
+   Roulette
+   author: Jaccob Mau
+*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+
+int main(){
+    /* initialize the random number generator with the current time */
+    srand((unsigned) time(NULL));
+    /*Variables*/
+    int choice, num;
+    float balance, bet;
+    choice=1;
+    
+    /*User Input for balance*/
+    printf("\nEntering the casino, how much money do you have? $");
+    scanf("%f", &balance);
+    printf("\nWe are playing Roulette, odd or even bets only.");
+
+    /*While loop to go through game until 0 is inputed*/
+    while(choice!=0){
+        /*User input for choice*/
+        printf("\nPlace your bet!");
+        printf("\nEnter 1 for odd, 2 for even, 0 to quit: ");
+        scanf("%d",&choice);
+
+        /*Check if choice is not 0*/
+        if(choice!=0){
+            /*Place Bet User Input*/
+            printf("\nHow much money you want to bet? $");
+            scanf("%f", &bet);
+
+            /*Print out bet size and choice*/
+            if(choice==1){
+                printf("\nYou bet $%2.f on odd numbers.",bet);
+            }
+            if(choice==2){
+                printf("\nYou bet $%2.f on even numbers.",bet);
+            }
+
+            /*Check balance to make sure user is able to play*/
+            if(bet<=balance){
+                /*Random number generator*/
+                num = rand() % 36;
+
+                /*Check if user won or lost*/
+                printf("\nThe winning number is %d!",num);
+                if(num%2==0){
+                    if(choice==2){ 
+                        printf("\nYou Win!");
+                        balance=balance+bet;
+                        printf("\nYour balance is $%2.f!!",balance);
+                    }
+                    else{
+                        printf("\nYou Lose!");
+                        balance=balance-bet;
+                        printf("\nYour balance is $%2.f!!",balance);
+
+                        if(balance==0){
+                            printf("\nYou have reached $0, comeback soon");
+                            choice=0;
+                        }
+                    }
+                }
+                else{
+                    if(choice==1){ 
+                        printf("\nYou Win!");
+                        balance=balance+bet;
+                        printf("\nYour balance is $%2.f!!",balance);
+                    }
+                    else{
+                        printf("\nYou Lose!");
+                        balance=balance-bet;
+                        printf("\nYour balance is $%2.f!!",balance);
+                        
+                        if(balance==0){
+                            printf("\nYou have reached $0, comeback soon!");
+                            choice=0;
+                        }
+                    }
+                }
+            }
+            else{
+                printf("\nYour bet was too high, insufficient funds, try again.");
+            }
+        }
+
+    }
+    printf("\nYou exit the casino with $%2.f\n",balance);
+    return 0;
+}

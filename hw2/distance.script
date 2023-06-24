@@ -1,0 +1,21 @@
+Script started on 2023-02-23 22:07:05-08:00
+]0;jmau@WWWSTU-P01:~/hw2[jmau@WWWSTU-P01 hw2]$ exit./pipegcc pipe.c -ansi -Wall -o pipe[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kgcc pipe.c -ansi -Wall -o pipe[C[1P[1P[1P[1P[1@d[1@i[1@s[1@t[1@a[1@n[1@c[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Kdistance
+]0;jmau@WWWSTU-P01:~/hw2[jmau@WWWSTU-P01 hw2]$ gcc distance.c -ansi -Wall -o distance[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./distance
+
+Please enter two distance values m1, y1, f1, i1, m2, y2, f2, and i2.
+i1: 25
+f1: 13
+y1: 1680
+m1: 30
+Distance 1 is 30 miles, 1685 yards, 0 feet, 1 inches.
+i2: 13
+f2: 35
+y2: 3650
+m2: 45
+Distance 2 is 47 miles, 142 yards, 0 feet, 1 inches.
+The sum of the distances is 78 miles, 67 yards, 0 feet, and 2 inches.
+
+]0;jmau@WWWSTU-P01:~/hw2[jmau@WWWSTU-P01 hw2]$ exit
+exit
+
+Script done on 2023-02-23 22:08:34-08:00

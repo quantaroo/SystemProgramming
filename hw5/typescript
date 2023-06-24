@@ -1,0 +1,162 @@
+Script started on 2023-03-17 00:29:02-07:00
+]0;jmau@WWWSTU-P01:~/hw5[jmau@WWWSTU-P01 hw5]$ emacsgcc rational.c -ansi -Wall -o rational
+]0;jmau@WWWSTU-P01:~/hw5[jmau@WWWSTU-P01 hw5]$ gcc rational.c -ansi -Wall -o rational[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemacs[Kgcc rational.c -ansi -Wall -o rational[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemacs[K./rational
+
+Welcome to my positive rational number calculator!
+Please input a rational number.
+Numberator: 1
+
+Denominator: 6
+
+------------------------------------------
+The current result is: 1/6
+1. Subtract a rational number from the current result;
+2. Add a rational number to the current result;
+3. Multiply the currecnt result by a rational number;
+4. Divide the current result by a rational number;
+5. Take the reciprocal of the current result;
+6. Quit
+
+Please enter a selection:1
+
+Please input a rational number.
+Numberator: -77
+
+Denominator: 6
+
+------------------------------------------
+The current result is: 13
+1. Subtract a rational number from the current result;
+2. Add a rational number to the current result;
+3. Multiply the currecnt result by a rational number;
+4. Divide the current result by a rational number;
+5. Take the reciprocal of the current result;
+6. Quit
+
+Please enter a selection:2
+
+Please input a rational number.
+Numberator: 4
+
+Denominator: 7
+
+------------------------------------------
+The current result is: 95/7
+1. Subtract a rational number from the current result;
+2. Add a rational number to the current result;
+3. Multiply the currecnt result by a rational number;
+4. Divide the current result by a rational number;
+5. Take the reciprocal of the current result;
+6. Quit
+
+Please enter a selection:3
+
+Please input a rational number.
+Numberator: -3
+
+Denominator: 5
+
+------------------------------------------
+The current result is: -57/7
+1. Subtract a rational number from the current result;
+2. Add a rational number to the current result;
+3. Multiply the currecnt result by a rational number;
+4. Divide the current result by a rational number;
+5. Take the reciprocal of the current result;
+6. Quit
+
+Please enter a selection:4
+
+Please input a rational number.
+Numberator: 2
+
+Denominator: 3
+
+------------------------------------------
+The current result is: -171/14
+1. Subtract a rational number from the current result;
+2. Add a rational number to the current result;
+3. Multiply the currecnt result by a rational number;
+4. Divide the current result by a rational number;
+5. Take the reciprocal of the current result;
+6. Quit
+
+Please enter a selection:5
+
+------------------------------------------
+The current result is: -14/171
+1. Subtract a rational number from the current result;
+2. Add a rational number to the current result;
+3. Multiply the currecnt result by a rational number;
+4. Divide the current result by a rational number;
+5. Take the reciprocal of the current result;
+6. Quit
+
+Please enter a selection:5
+
+------------------------------------------
+The current result is: -171/14
+1. Subtract a rational number from the current result;
+2. Add a rational number to the current result;
+3. Multiply the currecnt result by a rational number;
+4. Divide the current result by a rational number;
+5. Take the reciprocal of the current result;
+6. Quit
+
+Please enter a selection:2
+
+Please input a rational number.
+Numberator: 215
+
+Denominator: 14
+
+------------------------------------------
+The current result is: 22/7
+1. Subtract a rational number from the current result;
+2. Add a rational number to the current result;
+3. Multiply the currecnt result by a rational number;
+4. Divide the current result by a rational number;
+5. Take the reciprocal of the current result;
+6. Quit
+
+Please enter a selection:2
+
+Please input a rational number.
+Numberator: 9
+
+Denominator: 0
+
+ERROR: Division by zero!
+Try again...
+------------------------------------------
+The current result is: 22/7
+1. Subtract a rational number from the current result;
+2. Add a rational number to the current result;
+3. Multiply the currecnt result by a rational number;
+4. Divide the current result by a rational number;
+5. Take the reciprocal of the current result;
+6. Quit
+
+Please enter a selection:4
+
+Please input a rational number.
+Numberator: 0
+
+Denominator: 8
+
+ERROR: Division by zero!
+Try again...
+------------------------------------------
+The current result is: 22/7
+1. Subtract a rational number from the current result;
+2. Add a rational number to the current result;
+3. Multiply the currecnt result by a rational number;
+4. Divide the current result by a rational number;
+5. Take the reciprocal of the current result;
+6. Quit
+
+Please enter a selection:6
+]0;jmau@WWWSTU-P01:~/hw5[jmau@WWWSTU-P01 hw5]$ exit
+exit
+
+Script done on 2023-03-17 00:31:19-07:00

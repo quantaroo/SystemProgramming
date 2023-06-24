@@ -1,0 +1,4 @@
+Distance text file by Jaccob Mau
+
+This program takes the inches, feet, yards, and miles for both distance 1 and distance 2.
+Then calculate the correct proportions for the total distance and output the total distance. 

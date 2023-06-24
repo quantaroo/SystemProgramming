@@ -1,0 +1,64 @@
+Script started on 2023-04-13 17:25:36-07:00
+]0;jmau@WWWSTU-P01:~/hw6[jmau@WWWSTU-P01 hw6]$ ./PhotoLabgcc PhotoLab.c -ansi -Wall -o PhotoLab[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd hw6[Kgcc PhotoLab.c -ansi -Wall -o PhotoLab
+]0;jmau@WWWSTU-P01:~/hw6[jmau@WWWSTU-P01 hw6]$ gcc PhotoLab.c -ansi -Wall -o PhotoLab[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./PhotoLab[K
+----------------------------------------------
+All DIP Operations:
+- Age the image
+- Change the color image to black and white
+- Make a negative of the image
+- Flip the image vertially
+- Mirror the image horizontally
+- Sharpen the image
+- Exchange the red and blue color channels
+- Add noise to the image
+- Add a border to the image
+----------------------------------------------
+wilson.ppm was read successfully!
+aging.ppm was saved successfully. 
+aging.jpg was stored for viewing. 
+Aging tested!
+
+wilson.ppm was read successfully!
+bw.ppm was saved successfully. 
+bw.jpg was stored for viewing. 
+Black & White tested!
+
+wilson.ppm was read successfully!
+negative.ppm was saved successfully. 
+negative.jpg was stored for viewing. 
+negative tested!
+
+wilson.ppm was read successfully!
+vflip.ppm was saved successfully. 
+vflip.jpg was stored for viewing. 
+Vertical Flip tested!
+
+wilson.ppm was read successfully!
+hmirror.ppm was saved successfully. 
+hmirror.jpg was stored for viewing. 
+Mirror horizontally tested!
+
+wilson.ppm was read successfully!
+sharpen.ppm was saved successfully. 
+sharpen.jpg was stored for viewing. 
+Sharpen tested!
+
+wilson.ppm was read successfully!
+xRB.ppm was saved successfully. 
+xRB.jpg was stored for viewing. 
+Exchange RB tested!
+
+wilson.ppm was read successfully!
+noise.ppm was saved successfully. 
+noise.jpg was stored for viewing. 
+AddNoise tested!
+
+wilson.ppm was read successfully!
+border.ppm was saved successfully. 
+border.jpg was stored for viewing. 
+AddBorder tested!
+
+]0;jmau@WWWSTU-P01:~/hw6[jmau@WWWSTU-P01 hw6]$ exit [K[K[K[K[Kexit
+exit
+
+Script done on 2023-04-13 17:25:55-07:00

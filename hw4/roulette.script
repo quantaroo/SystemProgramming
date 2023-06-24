@@ -1,0 +1,58 @@
+Script started on 2023-03-09 22:56:17-08:00
+]0;jmau@WWWSTU-P01:~/hw4[jmau@WWWSTU-P01 hw4]$ emacs[1P./pigcc pi.c -ansi -Wall -o pi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemacs[K[1P./pigcc pi.c -ansi -Wall -o pi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemacs[K./roulette[5Pemacsgcc roulette.c -ansi -Wall -o roulette[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemacs[K./roulettegcc roulette.c -ansi -Wall -o roulette
+]0;jmau@WWWSTU-P01:~/hw4[jmau@WWWSTU-P01 hw4]$ gcc roulette.c -ansi -Wall -o roulette[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemacs[K[1P./pigcc pi.c -ansi -Wall -o pi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemacs[K[1P./pigcc pi.c -ansi -Wall -o pi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemacs[K./roulette
+
+Entering the casino, how much money do you have? $100
+
+We are playing Roulette, odd or even bets only.
+Place your bet!
+Enter 1 for odd, 2 for even, 0 to quit: 1
+
+How much money you want to bet? $10
+
+You bet $10 on odd numbers.
+The winning number is 6!
+You Lose!
+Your balance is $90!!
+Place your bet!
+Enter 1 for odd, 2 for even, 0 to quit: 1 2
+
+How much money you want to bet? $10
+
+You bet $10 on even numbers.
+The winning number is 9!
+You Lose!
+Your balance is $80!!
+Place your bet!
+Enter 1 for odd, 2 for even, 0 to quit: 1
+
+How much money you want to bet? $10
+
+You bet $10 on odd numbers.
+The winning number is 19!
+You Win!
+Your balance is $90!!
+Place your bet!
+Enter 1 for odd, 2 for even, 0 to quit: 2
+
+How much money you want to bet? $10
+
+You bet $10 on even numbers.
+The winning number is 26!
+You Win!
+Your balance is $100!!
+Place your bet!
+Enter 1 for odd, 2 for even, 0 to quit: 2
+
+How much money you want to bet? $10  100
+
+You bet $100 on even numbers.
+The winning number is 7!
+You Lose!
+Your balance is $ 0!!
+You have reached $0, comeback soon!
+You exit the casino with $ 0
+]0;jmau@WWWSTU-P01:~/hw4[jmau@WWWSTU-P01 hw4]$ exit
+exit
+
+Script done on 2023-03-09 22:57:41-08:00

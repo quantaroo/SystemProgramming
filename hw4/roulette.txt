@@ -1,0 +1,7 @@
+Roulette Program
+
+You first put your starting balance and then you will choose if you will bet on odds evens, or quit.
+Then you choose how much you will wager, and the bet needs to be under the amount you have.
+After you choose a choice the program will genereate a number between 0-36 not including 00.
+The program will let you know if you win or lose and what your remaining balance is.
+the process will repeat until you quit the program.

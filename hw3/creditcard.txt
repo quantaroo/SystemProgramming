@@ -1,0 +1,6 @@
+Credit Card Debt Text File
+Jaccob Mau
+
+This program takes in a credit limit, balance, apr and monthtly payment.
+It will then output the monthly interest rate new balance for every month until it is fully paid.
+It will then let the user know the total sum including interest and how many months to pay it off.

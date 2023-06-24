@@ -1,0 +1,51 @@
+/*
+   CENG 231 Assignment 3 Part 1
+   Credit Card Debt
+   author: Jaccob Mau
+*/
+#include <stdio.h>
+int main(){
+  /*Variables*/
+    float creditLimit, balance, apr, monthly, interest, newBalance, sum;
+    int month;
+    sum = 0.00;
+    /*Inputs*/
+    printf("Enter the credit limit        : ");
+    scanf("%f", &creditLimit);
+    printf("Enter the balance on the card : ");
+    scanf("%f", &balance);
+    printf("Enter the APR                 : ");
+    scanf("%f", &apr);
+    printf("Enter the monthly payment     : ");
+    scanf("%f", &monthly);
+
+    /*Print table headers*/
+    printf("\n\nMonth        Balance        Interest        Payment        New Balance");
+    /*While loop*/
+    month = 1;
+    sum = 0.00;
+    newBalance = balance;
+    while(balance>0){
+        /*Calculate
+          If balance is less than monthly payment*/
+        if(newBalance<=monthly){
+            interest = balance*(apr/100)/12;
+            monthly = newBalance + interest;
+            newBalance = balance + interest - monthly;
+            printf("\n %d           %0.2f           %0.2f         %0.2f            %0.2f",month,balance,interest,monthly,newBalance);
+        }
+        else{
+	    interest = balance*((apr/100)/12);
+            newBalance = balance + interest - monthly;
+            printf("\n %d           %0.2f           %0.2f         %0.2f            %0.2f",month,balance,interest,monthly,newBalance);
+            month+=1;
+        }
+        /*else statement*/
+        sum += monthly;
+        balance = newBalance;
+    }
+    printf("\n\nIt will take $%.2f over %d month(s) to pay off this debt.\n\n", sum, month);
+    return 0;
+}
+
+
